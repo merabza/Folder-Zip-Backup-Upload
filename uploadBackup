@@ -1,0 +1,2 @@
+@echo off
+powershell.exe -file folderBackup.ps1 -DbPath BackupFolder -checkFiles patternForChekFilesinBackupFolder -prefix backupPrefix -backupFolder folderForCreateBackup -ftpSite ftp://ftpsite/folder/ -user ****** -pass *********
